@@ -17,7 +17,7 @@ if (strstr($_SERVER["PHP_SELF"],"config.php")) {
 
 // ---- Define global variables
 //- Database Connection variables 
-$DBHOST = "localhost";			//- MySQL Database Host
+$DBHOST = "172.16.238.11";			//- MySQL Database Host
 $DBNAME = "scheduler";		//- MySQL Database Name
 $DBUSER = "username";			//- MySQL DB Username
 $DBPASS = "password";			//- MySQL DB Userpassword
