@@ -1,9 +1,9 @@
 <?php
 
-$connectdb = "my_app_db";
+$connectdb = "scheduler";
 $hostdb = "172.16.238.13";
-$userdb = "my_app";
-$passdb = "root";
+$userdb = "username";
+$passdb = "password";
 
 mysql_connect($hostdb, $userdb, $passdb) or
 die("Could not connect: " . mysql_error());
