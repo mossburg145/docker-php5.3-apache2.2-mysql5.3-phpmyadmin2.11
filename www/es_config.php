@@ -23,11 +23,11 @@ $DBUSER = "username";			//- MySQL DB Username
 $DBPASS = "password";			//- MySQL DB Userpassword
 
 //-- LDAP Authentication variables
-$LDAP_HOST = "ldaps://ldap.yourdomain.com";	//-- LDAP Host URL
-$LDAP_PORT = 636;							//-- LDAP Port
-$LDAP_SEARCHBASE = "ou=people,o=yourdomain.com";	//-- LDAP search base
-$LDAP_CONTEXT = "ou=people,o=yourdomain.com";		//-- LDAP Context
-$LDAP_USER_ID_PROP = "uid";					//-- LDAP User identifying field
-$LDAP_ATTRS_ARRAY = array("cn","mail");		//-- LDAP Attributes to return after the ldap search
+//$LDAP_HOST = "ldaps://ldap.yourdomain.com";	//-- LDAP Host URL
+//$LDAP_PORT = 636;							//-- LDAP Port
+//$LDAP_SEARCHBASE = "ou=people,o=yourdomain.com";	//-- LDAP search base
+//$LDAP_CONTEXT = "ou=people,o=yourdomain.com";		//-- LDAP Context
+//$LDAP_USER_ID_PROP = "uid";					//-- LDAP User identifying field
+//$LDAP_ATTRS_ARRAY = array("cn","mail");		//-- LDAP Attributes to return after the ldap search
 
 ?>
